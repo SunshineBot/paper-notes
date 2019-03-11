@@ -1,0 +1,27 @@
+Models published in recent 3 years(almost all are seq2seq models)
+
+ABS(+)*(local attention, handcrafted features, EMNLP2015_A Neural Attention Model for Abstractive Sentence Summarization, 2015)
+Feats2s*(rnn seq2seq with some spedific methods to control the vocab size, Nallapati_CoNLL_Abstractive text summarization using sequence-to-sequence
+rnns and beyond, 2016)
+RAS-Elman*/RAS-LSTM(seq2seq with Conv encoder and Elman/LSTM decoder, NAACL2016_Abstractive sentence summarization with attentive recurrent neural networks, 2016)
+Luong-NMT*(EMNLP2015_Effective Approaches to Attention-based Neural Machine Translation, 2015)
+SEASS(seq2seq with a selective gate mechanism, ACL2017_Selective Encoding for Abstractive Sentence Summarization, 2017)
+NMT+UNK_PS
+- FTSum(c/g)(AAAI2018_Faithful to the Original Fact Aware Neural Abstractive Summarization, 2018)
+- SeqCopyNet(AAAI2018_Sequential Copying Networks, 2018)
+
+RNN/RNN-context(rnn-based seq2seq with/without attention mechanism, EMNLP2015_LCSTS: A large scale chinese short text summarization dataset 2015)
+CopyNet(attention-based seq2seq with the copy mechanism, ACL2016_Incorporating copying mechanism in sequence-to-sequence learning, 2016)
+SRB(ACL2017_Improving Semantic Relevance for Sequence-to-Sequence Learning of Chinese Social Media Text Summarization, 2017)
+DRGD(conv seq2seq with a deep recurrent generative decoder, EMNLP 2017_Deep Recurrent Generative Decoder for Abstractive Text Summarization, 2017)
+- +CGU(seq2seq with conv gated unit, ACL2018_Global Encoding for Abstractive Summarization, 2018)
+
+HierAttn(CoNLL2016_Abstractive Text Summarization Using Sequence-to-Sequence RNNs and Beyond, 2016)
+DeepRL/deep reinforced model(Romain Paulus_ICLR2018_A Deep Reinforced Model for Abstractive Summarization, 2017)
+pointer-generator/PGC(ACL2017_Get To The Point: Summarization with Pointer-Generator Networks, 2017)
+GAN(AAAI2018_Generative adversarial network for abstractive text summarization, 2017)
+- Reinforced-Topic-ConvS2S(IJCAI-ECAI2018_A Reinforced Topic-Aware Convolutional Sequence-to-Sequence Model for Abstractive Text Summarization, 2018)
+- controllable seq2seq(Angela Fan_NMT@ACL2018_Controllable Abstractive Summarization)
+Distraction-M3(Chen_IJCAI2016_Distraction-Based Neural Networks for Document Summarization, 2016)
+GBA(graph-based)(Jiwei Tan_ACL2017_Abstractive document summarization with a graphbased attentional neural model, 2017)
+DCA MLE+SEM+RL(Asli Celikyilmaz_NAACL2018_NAACL2018_Deep Communicating Agents for Abstractive Summarization, 2018)
