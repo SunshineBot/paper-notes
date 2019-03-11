@@ -6,7 +6,7 @@
 - Model：
     - 本模型的基础是Attention-based Seq2Seq模型：  
     ![RNN-based S2S](./resources/MEMDEC/S2S-RNN.png)  
-    作者踢了一个改进Attention方法，对s_t-1和y_t-1进行一次非线性变换（tanh或者GRU）+线性变换，对encoder的每个h_j进行一次线性变化，然后两者相加进行一次tanh+线性变换，得到得分e_t,j。核心思路是将当前状态和上一个预测的词结合起来，然后计算和原文词之间的权重  
+    作者提了一个改进Attention方法，对s_t-1和y_t-1进行一次非线性变换（tanh或者GRU）+线性变换，对encoder的每个h_j进行一次线性变化，然后两者相加进行一次tanh+线性变换，得到得分e_t,j。核心思路是将当前状态和上一个预测的词结合起来，然后计算和原文词之间的权重  
     ![MEMDEC-improved-attention](./resources/MEMDEC/MEMDEC-improved-attention.png)
     - 作者提出了一个增强记忆的Decoder模块MEMDEC，下图是从框架层面看MEMDEC的结构，可以看到明显多了一个外部记忆MB，同时定义了Read和Write两个函数，用来对MB进行读写操作    
     ![MEMDEC-highLevel](./resources/MEMDEC/MEMDEC-highLevel.png)
